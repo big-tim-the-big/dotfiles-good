@@ -1,0 +1,8 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = big-tim-the-big
+	email = 126731744+big-tim-the-big@users.noreply.github.com
