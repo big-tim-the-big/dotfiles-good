@@ -1,0 +1,4 @@
+.DS_Store
+.config/.DS_Store
+.cargo/.crates.toml
+.config/rclone/rclone.conf
