@@ -2,20 +2,22 @@
 Updating Repository Packages
 #####
 Updating and loading repositories:
- Fedora 39 openh264 (From Cisco) - x86_64% [===============100% |   1.3 KiB/s | 989.0   B | -00m01s
- Dustin Blackman                      ???% [<<=>           100% |   4.6 KiB/s |   3.0 KiB |  00m01s
- Fedora 39 - x86_64 - Updates         100% [===============100% | 201.9 KiB/s | 202.2 KiB | -00m01s
- RPM Fusion for Fedora 39 - Nonfree   100% [===============100% |   6.9 KiB/s |   6.7 KiB | -00m01s
- nobara-appstream-39                  100% [===============100% | 211.2 KiB/s | 211.7 KiB | -00m02s
- nobara-baseos-multilib-39            100% [===============100% | 201.3 KiB/s | 201.7 KiB | -00m01s
- RPM Fusion for Fedora 39 - Free      100% [===============100% |   8.1 KiB/s |   6.6 KiB | -00m01s
- nobara-kde6                          100% [===============100% | 121.1 KiB/s | 121.7 KiB | -00m02s
- nobara-rocm-official                 100% [===============100% |   3.9 KiB/s |   3.0 KiB | -00m01s
- RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |   8.2 KiB/s |   6.8 KiB | -00m01s
- Fedora 39 - x86_64                   100% [===============100% | 181.5 KiB/s | 182.2 KiB | -00m01s
- nobara-kde6-overrides                108% [===============100% | 151.3 KiB/s | 151.7 KiB | -00m01s
- nobara-baseos-39                     100% [===============100% | 181.2 KiB/s | 171.7 KiB | -00m01s
- RPM Fusion for Fedora 39 - Free - Updates [===============100% |  11.3 KiB/s |   6.7 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Free      100% [===============100% |  11.5 KiB/s |   6.6 KiB | -00m01s
+ Dustin Blackman                      ???% [<<=>           100% |   5.7 KiB/s |   3.0 KiB |  00m01s
+ Fedora 39 openh264 (From Cisco) - x86_64% [===============100% |   1.4 KiB/s | 989.0   B | -00m01s
+ nobara-rocm-official                 100% [===============100% |   4.7 KiB/s |   3.0 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Nonfree   100% [===============100% |   8.0 KiB/s |   6.7 KiB | -00m01s
+ nobara-baseos-multilib-39            100% [===============100% | 191.2 KiB/s | 201.7 KiB | -00m01s
+ nobara-baseos-39                     110% [===============100% | 181.4 KiB/s | 171.7 KiB | -00m01s
+ Fedora 39 - x86_64                   100% [===============100% | 181.4 KiB/s | 182.2 KiB | -00m02s
+ RPM Fusion for Fedora 39 - Free - Updates [===============100% |   8.5 KiB/s |   6.2 KiB | -00m01s
+ nobara-appstream-39                  100% [===============100% | 211.2 KiB/s | 211.7 KiB | -00m01s
+ nobara-kde6                          107% [===============100% | 121.2 KiB/s | 121.7 KiB | -00m01s
+ nobara-kde6-overrides                100% [===============100% | 151.2 KiB/s | 151.7 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |   7.5 KiB/s |   6.2 KiB | -00m01s
+ Fedora 39 - x86_64 - Updates         100% [===============100% | 202.1 KiB/s | 202.2 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Free - Updates [===============100% |  39.6 KiB/s |  74.3 KiB | -00m02s
+ RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |  23.3 KiB/s |  35.5 KiB | -00m02s
 Repositories loaded.
 Nothing to do.
 Updating and loading repositories:
