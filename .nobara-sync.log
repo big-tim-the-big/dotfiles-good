@@ -2,22 +2,20 @@
 Updating Repository Packages
 #####
 Updating and loading repositories:
- RPM Fusion for Fedora 39 - Free      100% [===============100% |  11.5 KiB/s |   6.6 KiB | -00m01s
- Dustin Blackman                      ???% [<<=>           100% |   5.7 KiB/s |   3.0 KiB |  00m01s
- Fedora 39 openh264 (From Cisco) - x86_64% [===============100% |   1.4 KiB/s | 989.0   B | -00m01s
- nobara-rocm-official                 100% [===============100% |   4.7 KiB/s |   3.0 KiB | -00m01s
- RPM Fusion for Fedora 39 - Nonfree   100% [===============100% |   8.0 KiB/s |   6.7 KiB | -00m01s
- nobara-baseos-multilib-39            100% [===============100% | 191.2 KiB/s | 201.7 KiB | -00m01s
- nobara-baseos-39                     110% [===============100% | 181.4 KiB/s | 171.7 KiB | -00m01s
- Fedora 39 - x86_64                   100% [===============100% | 181.4 KiB/s | 182.2 KiB | -00m02s
- RPM Fusion for Fedora 39 - Free - Updates [===============100% |   8.5 KiB/s |   6.2 KiB | -00m01s
- nobara-appstream-39                  100% [===============100% | 211.2 KiB/s | 211.7 KiB | -00m01s
- nobara-kde6                          107% [===============100% | 121.2 KiB/s | 121.7 KiB | -00m01s
- nobara-kde6-overrides                100% [===============100% | 151.2 KiB/s | 151.7 KiB | -00m01s
- RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |   7.5 KiB/s |   6.2 KiB | -00m01s
- Fedora 39 - x86_64 - Updates         100% [===============100% | 202.1 KiB/s | 202.2 KiB | -00m01s
- RPM Fusion for Fedora 39 - Free - Updates [===============100% |  39.6 KiB/s |  74.3 KiB | -00m02s
- RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |  23.3 KiB/s |  35.5 KiB | -00m02s
+ Dustin Blackman                      ???% [<<=>           100% |   4.4 KiB/s |   3.0 KiB |  00m01s
+ nobara-appstream-39                  100% [===============100% | 201.2 KiB/s | 211.7 KiB | -00m01s
+ Fedora 39 - x86_64 - Updates         100% [===============100% | 191.7 KiB/s | 202.2 KiB | -00m01s
+ nobara-baseos-multilib-39            100% [===============100% | 191.1 KiB/s | 201.7 KiB | -00m02s
+ Fedora 39 openh264 (From Cisco) - x86_64% [===============100% |   1.6 KiB/s | 989.0   B | -00m01s
+ nobara-kde6                          107% [===============100% | 111.1 KiB/s | 121.7 KiB | -00m02s
+ nobara-kde6-overrides                100% [===============100% | 896.0   B/s | 151.7 KiB | -00m02s
+ nobara-baseos-39                     100% [===============100% | 171.2 KiB/s | 171.7 KiB | -00m01s
+ nobara-rocm-official                 100% [===============100% |   4.4 KiB/s |   3.0 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Nonfree - Updates==============100% |  10.5 KiB/s |   6.3 KiB | -00m01s
+ Fedora 39 - x86_64                   100% [===============100% | 171.7 KiB/s | 182.2 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Free - Updates [===============100% |   3.8 KiB/s |   3.3 KiB | -00m01s
+ RPM Fusion for Fedora 39 - Free      100% [===============100% |   7.2 KiB/s |   3.6 KiB | -00m00s
+ RPM Fusion for Fedora 39 - Nonfree   100% [===============100% |  11.3 KiB/s |   6.8 KiB | -00m01s
 Repositories loaded.
 Nothing to do.
 Updating and loading repositories:
@@ -38,6 +36,7 @@ Updating the system
 Updating and loading repositories:
 Repositories loaded.
 Nothing to do.
+Flatpak has been detected, updating Flatpaks in your system
 Updating appstream data for remote flathub
 Looking for updates…
 
