@@ -1,4 +1,5 @@
 # .bashrc
+fastfetch
 zsh
 # Source global definitions
 if [ -f /etc/bashrc ]; then
