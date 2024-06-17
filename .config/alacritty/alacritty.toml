@@ -15,6 +15,6 @@ blur = true
 decorations = "transparent"
 
 [font]
-normal.family = "JetBrainsMono Nl"
+normal.family = "JetBrainsMono Nerd Font"
 
 size = 12.5
