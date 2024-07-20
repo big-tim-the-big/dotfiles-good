@@ -1,4 +1,5 @@
 fastfetch
+eza --icons=always
 
 # history setup
 HISTFILE=$HOME/.zhistory
