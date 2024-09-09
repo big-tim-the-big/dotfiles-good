@@ -14,26 +14,22 @@ setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
+# zsh plugins
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/powerlevel10k/powerlevel10k.zsh-themes
+
+# zsh
+source $HOME/.zsh/zshenv
+source $HOME/.zsh/completion.zsh
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+source <(fzf --zsh)
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# zsh plugins
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  // if on mac:
-  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
-  # path
-  export PATH=$PATH:/opt/jdk/Home/bin/:/opt/jdk/Home/lib:/opt/jdk/sbin:~/Downloads/jdk-21.0.1.jdk/Contents/Home/bin/jarexport
-else
-  // if on linux:
-  source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  source /usr/share/powerlevel10k/powerlevel10k.zsh-themes
 fi
 
 # aliases
@@ -43,6 +39,7 @@ alias gh="/usr/local/bin/github"
 alias grep="rg"
 alias cat="bat"
 alias tf="thefuck"
+alias md="PAGER='bat' glow -p"
 
 # zoxide as cd
 eval "$(zoxide init zsh --cmd cd)"
