@@ -23,6 +23,8 @@ export VIMCONFIG="$XDG_CONFIG_HOME/nvim"
 
 # Man pages
 export MANPAGER='nvim +Man!'
+# Glow markdown pager
+export PAGER='bat'
 
 # fzf
 export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git"'

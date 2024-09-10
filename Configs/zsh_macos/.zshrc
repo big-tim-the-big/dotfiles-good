@@ -38,7 +38,7 @@ alias grep="rg"
 alias cat="bat"
 alias tf="thefuck"
 alias python="python3"
-alias md="PAGER='bat' glow -p"
+alias md="glow"
 
 # zoxide as cd
 eval "$(zoxide init zsh --cmd cd)"
