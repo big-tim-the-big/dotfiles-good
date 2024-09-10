@@ -1,5 +1,5 @@
 [submodule "zsh-completions"]
-	path = Configs/zsh_macos/.zsh/plugins/zsh-completions
+	path = Configs/zsh/.zsh/plugins/zsh-completions
     url = https://github.com/zsh-users/zsh-completions
 
 [submodule "nvim"]
