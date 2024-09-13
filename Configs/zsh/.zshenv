@@ -1,15 +1,14 @@
 #!/usr/bin/env zsh
 
 ###############################
-# EXPORT ENVIRONMENT VARIABLE #
+# EXPORT ENVIRONMENT VARIABLES #
 ###############################
 
+. "$HOME/.cargo/env"
 export WORKSPACE="$HOME/workspace"
 
 # XDG
 export XDG_CONFIG_HOME=$HOME/.config
-export XDG_DATA_HOME=$XDG_CONFIG_HOME/local/share
-export XDG_CACHE_HOME=$XDG_CONFIG_HOME/cache
 
 # editor
 export EDITOR="nvim"
@@ -39,13 +38,3 @@ export FZF_DEFAULT_OPTS="--height 60% \
 --marker ⇒"
 export FZF_ALT_C_OPTS="--preview 'tree -C {} | head -n 10'"
 export FZF_COMPLETION_DIR_COMMANDS="cd pushd rmdir tree ls"
-
-# perl
-PATH="~/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="~/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="~/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"~/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=~/perl5"; export PERL_MM_OPT;
-
-# add jdk to path
-export PATH=$PATH:/opt/jdk/Home/bin/:/opt/jdk/Home/lib:/opt/jdk/sbin:~/Downloads/jdk-21.0.1.jdk/Contents/Home/bin/jarexport
