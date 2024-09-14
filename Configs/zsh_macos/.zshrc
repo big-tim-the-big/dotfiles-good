@@ -1,4 +1,4 @@
-export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
 fastfetch
 eza --icons=always
 
